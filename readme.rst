@@ -1,8 +1,8 @@
 **Class Details**
 
-* Location: IB 3406
-* Time: Tues 6:00 - 8:40 pm
-* Dates:  01/02/2019 - 03/22/2019
+* Location: Remote
+* Time: Tues or Thurs 6:00 - 8:40 pm
+* Dates:  01/05/2021 - 03/23/2021
 * Credits: 5
 * Prerequisites: AD 300 or similar with 2.5 or better
 * Instructor: Brenden West | brenden.west@seattlecolleges.edu | 206-552-9795
@@ -10,56 +10,59 @@
 **Summary** 
 This class covers fundamental data structures, algorithms, and problem-solving techniques at the core of computer science. Students will learn how to estimate theoretical performance of a programmatic solution and choose optimal solutions for common programming problems.
 
-Includes linked lists, stacks, queues, priority queues, binary and multi-way trees, directed graphs, hashing, and sorting. 
+*Note:* Students should be familiar with Java language programming, as well as personal computer configuration and file system organization.
+
+**Learning Outcomes**
+
+* Common data structures & their uses
+* Common algorithmic techniques for problem solving
+* Techniques for analyzing algorithmic performance
+* Basic unit testing
 
 **Class Structure and Topics**
-Each week's class will involve lecture on a new topic and time to practice what we've learned or to work through assignments. This course will cover the following topics, although the precise list & order is subject to revision:
+Course instruction will be fully remote with weekly video conference at the scheduled class time to review assigned topics and address questions. Students should have completed assigned readings & videos prior to class.
+
+Students can reach me directly throughout the week in the NSC:AD Slack channel.
+
+This course will cover the following topics, although the precise list & order is subject to revision:
 
 * Analysis of Algorithms
+* Abstract Data Types
 * Linked lists
-* Abstract Data Types 
 * Stacks & Queues
+* Recursion
 * Sorting algorithms
 * Hashing
 * Binary search trees
-* Balanced B-trees
 * Hash Tables
 * Graphs and path finding
 * String algorithms & regular expressions
 * Compression algorithms
  
 **Course Materials**
-Assigned readings and exercises will draw from Algorithms, 4th Ed and the associated online courses at:
+This class will use `Data Structures and Abstractions with Java (5th Edition)<https://www.pearson.com/us/higher-education/program/Carrano-Data-Structures-and-Abstractions-with-Java-5th-Edition/PGM1912010.html>` and https://algs4.cs.princeton.edu/home/. as well as programming exercises from these free online resources:
 
 * https://www.coursera.org/learn/algorithms-part1 
-* https://www.coursera.org/learn/algorithms-part2  
-
-Optional readings will also draw from "Data Structures and Algorithms in Java, 2nd Edition", which is available free online through Seattle Public Library.
-
-Programming exercises will also be drawn from these free online services:
-
+* https://www.coursera.org/learn/algorithms-part2
 * https://practiceit.cs.washington.edu/ 
 * https://leetcode.com/ 
 
-Students will need a computer with an IntelliJ-based Java programming environment as described for Windows or Mac OSX.
+Students will need a computer with an IntelliJ-based Java programming environment as described for `Windows<https://lift.cs.princeton.edu/java/windows/>` or `Mac OSX<https://lift.cs.princeton.edu/java/mac/>.
 
 Grading
-Grades will be based on assignments & exercises (85%), and the quizzes (15%). There is no final exam.
+Grades will be based on assignments (85%) and quizzes (15%). There is no final exam.
 
-Weekly assignments will be posted on Canvas and are designed to exercise the skills and concepts covered that week. Smaller coding assignments are due by the start of class on the following Tuesday and late submission may be marked down by 10%. 
+Weekly assignments will be posted on Canvas and are designed to exercise the skills and concepts covered that week. Smaller coding assignments are due by the Monday before class and late submissions may be subject to a 10% penalty.
 
-Larger programming assignments are due by finals week, but have a suggested due date that students should target to avoid a time crunch & knowledge gaps for subsequent assignments. Grade for these assignments is a weighted value based on your Coursera.org score (80% passing score = full credit).
+Larger programming assignments have a suggested due date but can be submitted by finals week. Students should target the due date to avoid a time crunch at quarter's end. Grade for these assignments is a weighted value based on your Coursera.org score (80% passing score = full credit).
 
 You may discuss how to approach solutions with other students in the class or in online forums, but your submission must be your own work. Code submissions that are substantially identical would be considered cheating and subject to a markdown penalty. 
 
 Quizzes will be administered via Canvas and must be completed during the specified time frame to receive credit.
 
-**Resources**
+**Other Resources**
 
 * https://algs4.cs.princeton.edu/home/  
-* https://www.coursera.org/learn/algorithms-part1 
-* https://www.coursera.org/learn/algorithms-part2  
-* https://www.tutorialspoint.com/java/  
-* https://proquest-safaribooksonline-com.ezproxy.spl.org/ 
-  - A Common-Sense Guide to Data Structures and Algorithms - Jay Wengrow
-  - Data Structures & Algorithms in Java, 2nd Ed. - Robert Lafore
+* https://www.tutorialspoint.com/java/
+* https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+* https://www.geeksforgeeks.org/data-structures/
