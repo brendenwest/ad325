@@ -3,13 +3,14 @@ Intro to Data Structures & Algorithms
 **Summary**
   - Class overview
   - Java programming overview
+  - Recursion
   - Data Structures
   - Algorithmic Analysis
 
 **Reading**
   - https://www.coursera.org/learn/algorithms-part1/home/week/1  
-  - Sedgewick - Ch. 1.1, 1.2, & 1.4
-  - (optional) Lafore - Ch 1 - Overview, Ch 2 - Basics of Arrays, Classes, Logarithms, Big O Notation
+  - https://algs4.cs.princeton.edu/10fundamentals/ - Ch. 1.1, 1.2, & 1.4
+  - https://www.geeksforgeeks.org/recursion/
   - https://www.geeksforgeeks.org/assertions-in-java/  
  
 **Watch**
@@ -17,18 +18,20 @@ Intro to Data Structures & Algorithms
   - https://techdevguide.withgoogle.com/paths/foundational/riffing-unit-test-importance/#! 
  
 **Practice**
-  - Students can practice their understanding of Java programming basics through the BJP4 exercises for chapters 1 - 8, at https://practiceit.cs.washington.edu/problem/list 
+  - Java programming basics - https://practiceit.cs.washington.edu/problem/list (BJP4 chapters 1 - 8)
   - BJP4 Ch. 13 - bigOh 1 -5
  
 **Java Programming**
 
-DS&A concepts are independent of any specific programming language. But this class teaches them via Java, which students should know from their previous class.
+DS&A concepts are language independent, but this class teaches them via Java which students should know from previous classes.
 
-Sedgewick Ch. 1.1 covers basics of Java programming as a refresher.
+The readings & practice links above provide a recap of Java language features.
 
-Students can practice their understanding of Java basics through the BJP4 exercises for chapters 1 - 8, at https://practiceit.cs.washington.edu/problem/list. 
+This course will make use of several Java features that may be new to students.
 
-Sedgewick Ch. 1.2 covers abstraction and object-oriented programming in the context of Java.
+- *Generics* - A Java mechanism that allows a class to work for any data type. Classes are defined with a symbolic placeholder for some concrete type to be used in practice.
+- *Autoboxing* - Java automatically converts (*casts*) between a primitive type (e.g. *int*) and the corresponding wrapper type (*Integer*).  Automatically casting a wrapper type to a primitive type is known as *unboxing*.
+- *Assertions* - Java uses the *assert* command to test if a boolean expression is *true*. Such assertions test the correctness of program assumptions and are the basis of *unit testing*.
 
 **Data Structures & Algorithms**
 
