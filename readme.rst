@@ -40,14 +40,14 @@ This course will cover the following topics, although the precise list & order i
 * Compression algorithms
  
 **Course Materials**
-This class will use `Data Structures and Abstractions with Java (5th Edition)<https://www.pearson.com/us/higher-education/program/Carrano-Data-Structures-and-Abstractions-with-Java-5th-Edition/PGM1912010.html>`_ and https://algs4.cs.princeton.edu/home/. as well as programming exercises from these free online resources:
+This class will use `Data Structures and Abstractions with Java (5th Edition) <https://www.pearson.com/us/higher-education/program/Carrano-Data-Structures-and-Abstractions-with-Java-5th-Edition/PGM1912010.html>`_ and https://algs4.cs.princeton.edu/home/. as well as programming exercises from these free online resources:
 
 * https://www.coursera.org/learn/algorithms-part1 
 * https://www.coursera.org/learn/algorithms-part2
 * https://practiceit.cs.washington.edu/ 
 * https://leetcode.com/ 
 
-Students will need a computer with an IntelliJ-based Java programming environment as described for `Windows<https://lift.cs.princeton.edu/java/windows/>`_ or `Mac OSX<https://lift.cs.princeton.edu/java/mac/>`_.
+Students will need a computer with an IntelliJ-based Java programming environment as described for `Windows <https://lift.cs.princeton.edu/java/windows/>`_ or `Mac OSX <https://lift.cs.princeton.edu/java/mac/>`_.
 
 Grading
 Grades will be based on assignments (85%) and quizzes (15%). There is no final exam.
