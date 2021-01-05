@@ -9,7 +9,7 @@ Intro to Data Structures & Algorithms
 
 **Reading**
   - https://www.coursera.org/learn/algorithms-part1/home/week/1  
-  - https://algs4.cs.princeton.edu/10fundamentals/ - Ch. 1.1, 1.2, & 1.4
+  - https://algs4.cs.princeton.edu/10fundamentals/ - Ch. 1.1 - 1.4
   - https://www.geeksforgeeks.org/recursion/
   - https://www.geeksforgeeks.org/assertions-in-java/  
  
