@@ -6,6 +6,7 @@ Intro to Data Structures & Algorithms
   - Recursion
   - Data Structures
   - Algorithmic Analysis
+  - Linked Lists
 
 **Reading**
   - https://www.coursera.org/learn/algorithms-part1/home/week/1  
@@ -38,12 +39,13 @@ Data Structures & Algorithms
 
 Data structures & Algorithms (DS&A) describes the concepts around solving programming problems efficiently. As we’ll cover a bit later, ‘correct’ solutions can differ by orders of magnitude in terms of speed & memory usage.
 
-Solutions typically involve questions of how to store & represent data, esp. collections of data. Data structures are ways in which data is arranged in your computer’s memory (or stored on disk).
+DS&A are frequently concerned with collections of data and related operations such - search, add, update, delete, count,  sort items.
 
-Data structures have different capabilities that can simplify or complicate common operations such as - search, add, update, delete, count, and sort.
+**Data structures** describe ways in which program data is stored and accessed. The choice of data structure can simplify or complicate common program operations such as - search, add, update, delete, count, and sort. Choice of data structure also affect computer memory requirements for running a program
 
-Data structures also vary in terms of computer memory requirements.
- 
+Collections may use structures built-into a programming language, such as arrays or linked lists, or an abstract data types such as bag, stack, or queue.
+
+**Algorithms** are the logical methods for solving a problem. Some common algorithms are independent of data structure, while others are closely bound to abstract data types (e.g. trees & graphs). 
 
 Abstract Data Types (ADT’s)
 ----
@@ -86,3 +88,18 @@ quadratic         N\ :sup:`2`        check all pairs in a list
 cubic             N\ :sup:`3`        check all triples in a list
 exponential       2\ :sup:`N`        check all subsets in a list
 ================  ================== ===================================
+
+
+Linked Lists
+------------
+Linked Lists are a fundamental alternative to arrays for structuring a collection of items.
+
+- Not native to Java
+- Recursive structure that’s either null or a node w/ data & reference to a linked list
+- Sequence of items, where each item links to next item in list (single linked list)
+- In double linked list, items also have a link to ‘previous’ item
+- Does not require contiguous memory
+- Does not require advance sizing
+- Can be used for any type of data,
+- Items can’t be accessed by index
+- Items can be added/removed more easily than for arrays but can require ‘traversing’ the list
