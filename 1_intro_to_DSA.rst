@@ -1,6 +1,6 @@
 Intro to Data Structures & Algorithms
 ====
-**Summary**
+**Learning Outcomes**
   - Class overview
   - Java programming overview
   - Recursion
@@ -21,8 +21,8 @@ Intro to Data Structures & Algorithms
   - Java programming basics - https://practiceit.cs.washington.edu/problem/list (BJP4 chapters 1 - 8)
   - BJP4 Ch. 13 - bigOh 1 -5
  
-**Java Programming**
-
+Java Programming
+----
 DS&A concepts are language independent, but this class teaches them via Java which students should know from previous classes.
 
 The readings & practice links above provide a recap of Java language features.
@@ -33,7 +33,8 @@ This course will make use of several Java features that may be new to students.
 - *Autoboxing* - Java automatically converts (*casts*) between a primitive type (e.g. *int*) and the corresponding wrapper type (*Integer*).  Automatically casting a wrapper type to a primitive type is known as *unboxing*.
 - *Assertions* - Java uses the *assert* command to test if a boolean expression is *true*. Such assertions test the correctness of program assumptions and are the basis of *unit testing*.
 
-**Data Structures & Algorithms**
+Data Structures & Algorithms
+----
 
 Data structures & Algorithms (DS&A) describes the concepts around solving programming problems efficiently. As we’ll cover a bit later, ‘correct’ solutions can differ by orders of magnitude in terms of speed & memory usage.
 
@@ -44,7 +45,8 @@ Data structures have different capabilities that can simplify or complicate comm
 Data structures also vary in terms of computer memory requirements.
  
 
-**Abstract Data Types (ADT’s)**
+Abstract Data Types (ADT’s)
+----
 Programmers commonly use ADT’s to hide implementation details from clients and provide a stable public interface to the data and methods.
 
 Using an ADT allows the programmer to change the underlying algorithm or data storage without affecting clients.
@@ -53,7 +55,8 @@ ADT’s typically store data in arrays, which are native to most languages, or i
 
 ADT’s can be a composed of arrays, linked lists, and other ADT’s.
 
-**Algorithmic Analysis**
+Algorithmic Analysis
+----
 Algorithms are methods for operating on data. Efficient algorithms can greatly speed calculations & even solve previously unsolvable problems.
 
 The study of efficient algorithms is hard to separate from data structures, so these are usually taught together.
@@ -68,10 +71,18 @@ Programmers can also build a mathematical model for total running time based on:
   - Cost of execution of each statement
   - Frequency of execution of each statement
 
-These cost models are functions that describe the program’s ‘order of growth’.
+These cost models are functions that describe the program’s ‘order of growth’ and allow  evaluation of program efficiency separate from the programming language or run-time environment.
 
-Models are usually simplified by ignoring low-order mathematical terms, to better represent program behavior at extreme scale.
+Models are usually shown in simplified *Big-O notation* that ignores low-order mathematical terms to represent program behavior at extreme scale:
 
-Models allow the evaluation of program efficiency separate from the programming language or run-time environment.
-
-Program run time is typically referred to by the model’s order of growth - e.g. constant, logarithmic, linear, linearithmic, etc.
+================  ================== ===================================
+Description         Big-O             Example
+================  ================== ===================================
+constant          1                  add 2 numbers
+logarithmic       logN               binary search
+linear            N                  find max in a list
+linearithmic      NlogN              mergesort
+quadratic         N\ :sup:`2`        check all pairs in a list
+cubic             N\ :sup:`3`        check all triples in a list
+exponential       2\ :sup:`N`        check all subsets in a list
+================  ================== ===================================
