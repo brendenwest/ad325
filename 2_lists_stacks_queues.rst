@@ -27,12 +27,14 @@ A data collection based on last-in, first-out (LIFO) principle.
 - Stack items are accessed in reverse order of being added
 - Useful for reversing items in a collection without knowing  total count
 - Common stack operations:
+
   - push - add an item to top of the stack
   - pop - remove top item from the stack
   - peek - retrieve top item without removing from the stack
   - isEmpty - True if the stack has no items
   - size - number of items on the stack
 - Common uses of stacks:
+
   - browser history
   - mobile application screens
   - evaluating arithmetic expressions
@@ -46,6 +48,7 @@ A data collection based on first-in, first-out (FIFO) principle. Similar to stac
 
 - Data items are organized in the order received - earliest item is at the front and most recently added item is at the back
 - Common Queue operations:
+
   - enqueue - add an item to end of queue
   - dequeue - remove item from front of queue
   - isEmpty
