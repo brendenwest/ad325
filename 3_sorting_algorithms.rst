@@ -4,21 +4,18 @@ Sorting Algorithms
 Key Topics
 ----------
 - Elementary sorting algorithms
-- Comparable interface
-- Recursion
+- Comparable interfaces
 - Advanced sorting algorithms
  
 Reading & Videos
 ----------------
-- Sedgewick - Ch. 2.1 - 2.3
+- Carron & Henry: Chapters 15 - 16, Interlude 5 Generics
 - https://www.coursera.org/learn/algorithms-part1/home/week/2 - Elementary Sorts
 - https://www.coursera.org/learn/algorithms-part1/home/week/3 
-- Lafore (optional) - Ch. 3 - Simple Sorting, Ch. 6 - Recursion, Ch. 7 - Advanced Sorting
-- https://www.quora.com/Why-is-sorting-important-in-computer-science-and-programming
 
 Reference
 ---------
-- https://algs4.cs.princeton.edu/25applications/  
+- https://algs4.cs.princeton.edu/20sorting/
 - https://www.geeksforgeeks.org/sorting-algorithms/ 
 - https://www.geeksforgeeks.org/recursion/  
 
@@ -37,20 +34,23 @@ Key Concepts
   3. Combine: Appropriately combine the answers
  
 
-Sort algorithms
+Elementary Sort algorithms
 ---------------
 
 **Selection sort**
 Select the smallest item in the array, and exchange it with the first entry. Then, find the next smallest item and exchange it with the second entry. Continue in this way until the entire array is sorted.
-average case: uses ~N2/2 compares and N exchanges 
+
+- average case: uses ~N\ :sup:`2`/2 compares and N exchanges 
 
 **Insertion sort**
-consider items one at a time, swapping the current item with larger items to the left
-average case: for randomly ordered arrays, uses ~N2/4 compares and ~N2/4 exchanges.
-worst case is ~ N2/2 compares and ~ N2/2 exchanges 
-best case is N-1 compares and 0 exchanges
-works well for certain types of non-random arrays such as partially sorted arrays
+consider items one at a time, swapping the current item with larger items to the left.
+
+- average case: for randomly ordered arrays, uses ~N\ :sup:`2`/4 compares and ~N\ :sup:`2`/4 exchanges.
+- worst case is ~ N\ :sup:`2`/2 compares and ~ N\ :sup:`2`/2 exchanges 
+- best case is N-1 compares and 0 exchanges
+- works well for certain types of non-random arrays such as partially sorted arrays
 
 **Shell sort**
 a simple extension of insertion sort that gains speed by allowing exchanges of entries that are far apart, to produce partially sorted arrays that can be efficiently sorted, eventually by insertion sort.
-The number of compares used by shellsort is ~ O(N3/2)
+
+- The number of compares used by shellsort is ~ O(N\ :sup:`3/2`)
