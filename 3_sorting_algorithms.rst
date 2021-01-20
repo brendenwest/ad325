@@ -50,7 +50,7 @@ consider items one at a time, swapping the current item with larger items to the
 
 **Shell sort**
 
-a simple extension of insertion sort that gains speed by allowing exchanges of entries that are far apart, to produce partially sorted arrays that can be efficiently sorted, eventually by insertion sort.
+A simple extension of insertion sort that gains speed by exchanging entries that are far apart (*h-sorting*), to produce partially sorted arrays that can be efficiently sorted, eventually by insertion sort. H-sorting is repeated with smaller values of *h* until the array is fully sorted.
 
 - The number of compares used by shellsort is ~ O(N\ :sup:`3/2`)
 
@@ -62,6 +62,7 @@ Faster Sorting algorithms
 - A simple recursive method to sort an array by dividing it into two halves, sorting the two halves (recursively), and then merging the results
 - Mergesort guarantees to sort an array of N items in time proportional to NlogN, no matter what the input.
 - It uses extra space proportional to N
+- Mergesort has too much overhead for tiny subarrays, so can be sped up using Insertion Sort if num of items < 7
 
 **Quicksort**
 
