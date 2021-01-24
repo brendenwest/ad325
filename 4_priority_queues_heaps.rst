@@ -14,7 +14,9 @@ Priority Queues & Heaps
 
 **Reference**
  - https://algs4.cs.princeton.edu/24pq/
-
+ - https://www.geeksforgeeks.org/heap-data-structure/
+ - https://www.geeksforgeeks.org/binary-tree-data-structure/
+ 
 
 Priority Queues
 ----
