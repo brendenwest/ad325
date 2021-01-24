@@ -26,6 +26,41 @@ Unlike regular FIFO queues, priority queues support removing the item with large
  - Data can be ordered - priority item is moved to correct position when inserted
  - Operations to insert or remove a priority item operation should take linear time in the worst case
 
+Trees
+----
+
+A **tree** is a set of **nodes** connected by **edges** that indicate the relationships between the nodes. The nodes are arranged in **levels** that indicate the hierarchy. The top level has a single node called the **root**.
+
+Nodes at each successive level are **children** of related nodes at the previous level. A node that has children is their **parent**. Nodes that are children of the same parent are **siblings**.
+
+A **leaf** node has no children.
+
+Trees whose nodes are constrained to some number (n) of children are called **n-ary trees**. In a **binary tree*, nodes may have at most two children. 
+
+Tree **height** is the number of levels in the tree. An empty tree has height = 0.
+
+Nodes in a tree are accessed by a **path** starting at the root and following the connected nodes. The number of edges in a path are its **length**.
+
+Binary Trees
+----
+
+Each node in a binary tree has at most two children, called the **left child** and **right child**.
+
+Binary trees can be traversed (each node visited), usually through recursive methods that take one of these approaches:
+ - **pre-order** - visit all nodes in tree order (starting from root):
+    - visit the root,
+    - traverse the left sub-tree
+    - traverse the right sub-tree
+ - **in-order** - visit all the nodes ascending order, based on their key values:
+    - traverse the left sub-tree,
+    - visit the root,
+    - traverse the right sub-tree.
+ - **post-order** - useful for deleting a tree or getting 'postfix' expression:
+    - traverse the left sub-tree
+    - traverse the right sub-tree
+    - visit the root
+
+
 Binary Heap
 ----
 
@@ -41,20 +76,3 @@ The binary heap is a data structure that can efficiently support the basic prior
 - A **sink** operation is performed when a node becomes larger than it's parent node. The node is exchanged with it's parent, until heap order is restored
 - A **swim** operation is performed when a node becomes smaller than one or both of it's child nodes. The node is exchanged with the larger child until heap order is restored.
 - In an n-item priority queue, the heap algorithms require no more than 1 + lg n compares for insert and no more than 2 lg n compares for remove the maximum.
-
-Binary Trees
-----
-
-Binary trees can be traversed (each node visited), usually through recursive methods that take one of these approaches:
- - **pre-order** - visit all nodes in tree order (starting from root):
-    - visit the root,
-    - traverse the left sub-tree
-    - traverse the right sub-tree
- - **in-order** - visit all the nodes ascending order, based on their key values:
-    - traverse the left sub-tree,
-    - visit the root,
-    - traverse the right sub-tree.
- - **post-order** - useful for deleting a tree or getting 'postfix' expression:
-    - traverse the left sub-tree
-    - traverse the right sub-tree
-    - visit the root
