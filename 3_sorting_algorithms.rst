@@ -7,7 +7,7 @@ Sorting Algorithms
  - Advanced sorting algorithms
  
 **Reading & Videos**
- - Carron & Henry: Chapters 15 - 16, Interlude 5 Generics
+ - Carrano & Henry: Chapters 15 - 16, Interlude 5 Generics
  - https://www.coursera.org/learn/algorithms-part1/home/week/2 - Elementary Sorts
  - https://www.coursera.org/learn/algorithms-part1/home/week/3 
 
