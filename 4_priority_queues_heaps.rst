@@ -67,14 +67,19 @@ Binary trees can be traversed (each node visited), usually through recursive met
 Binary Heap
 ----
 
-The binary heap is a data structure that can efficiently support the basic priority-queue operations. In a binary heap, the items are stored in an array such that each key is guaranteed to be larger than (or equal to) the keys at two other specific positions.
+A Binary Heap is a **complete binary tree** structure that can efficiently support priority-queue operations. 
 
- - A binary tree is heap-ordered if the key in each node is larger than (or equal to) the keys in that node's two children (if any).
- - The largest key in a heap-ordered binary tree is found at the root.
- - Binary heaps can be traversed through simple arithmetic on array indices
- - Heap operations involve making a simple change that could violate the heap condition, then traveling through the heap, modifying the heap as required to ensure that the heap condition is satisfied everywhere. We refer to this process as *reheapifying* - restoring heap order.
-- A **sink** operation is performed when a node becomes larger than it's parent node. The node is exchanged with it's parent, until heap order is restored
-- A **swim** operation is performed when a node becomes smaller than one or both of it's child nodes. The node is exchanged with the larger child until heap order is restored.
+A Binary Heap is either a Min Heap or a Max Heap. In a Min Binary Heap, the root node must have the minimum value among all nodes in the tree. The tree is **heap-ordered**, meaning all nodes in the tree are less than or equal to their children. 
+
+A Max Heap is similar, but with the maximum value at the root and each node larger than or equal to it's children.
+
+
+Heap operations involve making a simple change that could violate the heap condition, then modifying the heap (**reheapifying**)as needed to restore that heap order. 
+
+ - A **sink** operation is performed when a node becomes larger than it's parent node. The node is exchanged with it's parent, until heap order is restored
+ - A **swim** operation is performed when a node becomes smaller than one or both of it's child nodes. The node is exchanged with the larger child until heap order is restored.
+
+- Binary heaps stored in arrays can be traversed through simple arithmetic on array indices,
 
  Priority Queues
 ----
