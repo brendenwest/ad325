@@ -37,6 +37,8 @@ Some design considerations for symbol tables:
     - **Interation** - clients can iterate through the collection of keys
     - **Key equality** - Objects stored as keys must be comparable.
 
+Symbol tables can be stored in an unordered linked list or in an ordered array. The latter uses two underlying arrays, one for the keys and one for the values.
+
 **Ordered symbol tables** allow key comparison for efficient insert & get operations and keep the table entries in order. This ordering enables a larger set of operations, such as:
     - **min** & **max** - smallest or largest key
     - **floor** & **ceiling** - smallest or largest key relative to a given key
