@@ -7,6 +7,7 @@ Binary Search Trees (BST)
     - Balanced Search Trees
 
 **Reading & Videos**
+    - Carrano & Henry: Chapters 20, 21, 26
     - https://www.coursera.org/learn/algorithms-part1/home/week/4  (Elementary Symbol Tables)
     - https://www.coursera.org/learn/algorithms-part1/home/week/5
 
