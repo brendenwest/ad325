@@ -25,9 +25,10 @@ Symbol tables are sometimes referred to as 'associative arrays' or 'dictionaries
 
 .. code-block::
 
-    courses = [
-        "ad320": {"instructor": "mchenry", "credits": 5},
-        "ad325": {"instructor": "west", "credits": 5},
+    words = [
+        {"the": 25},
+        {"house": 2},
+        {"tv": 1}
     ]
 
 Dictionaries typically support basic **insert**, **find**, **get**, and **delete** operations.
