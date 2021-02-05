@@ -19,17 +19,17 @@ Binary Search Trees (BST)
 
 Symbol Tables
 ----
-A symbol table associates a value with a key to enable later searches for the value associated with a given key. Table entries are **key-value pairs**.
-
-Symbol tables are sometimes referred to as 'associative arrays' or 'dictionaries'.
+A symbol table associates a value with a key to enable later searches for the value associated with a given key. Table entries are **key-value pairs**, sort of like this:
 
 .. code-block::
 
     words = [
-        {"the": 25},
-        {"house": 2},
-        {"tv": 1}
+        "the": 25,
+        "house": 2,
+        "tv": 1
     ]
+
+Symbol tables are sometimes referred to as 'associative arrays' or 'dictionaries'.
 
 Dictionaries typically support basic **insert**, **find**, **get**, and **delete** operations.
 
