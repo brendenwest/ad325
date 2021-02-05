@@ -5,12 +5,11 @@ Binary Search Trees (BST)
     - Elementary Symbol Tables
     - Binary Search Trees
     - Searching a BST
-    - Balanced Search Trees
+    - Adding & Removing BST entries
 
 **Reading & Videos**
     - Carrano & Henry: Chapters 20, 21, 26
-    - https://www.coursera.org/learn/algorithms-part1/home/week/4  (Elementary Symbol Tables)
-    - https://www.coursera.org/learn/algorithms-part1/home/week/5
+    - https://www.coursera.org/learn/algorithms-part1/home/week/4  (Elementary Symbol Tables & BST)
 
 **Reference**
     - https://algs4.cs.princeton.edu/30searching/ (3.1 - 3.3)
