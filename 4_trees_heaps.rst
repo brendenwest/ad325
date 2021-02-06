@@ -9,7 +9,7 @@ Trees, Heaps, Priority Queues
 
 
 **Reading & Videos**
- - Carrano & Henry: Chapters 8.34, 24, 27
+ - Carrano & Henry: Chapters 8.34, 24, 25, 27
  - https://www.coursera.org/learn/algorithms-part1/home/week/4
 
 **Reference**

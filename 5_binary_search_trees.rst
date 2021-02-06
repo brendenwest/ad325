@@ -72,10 +72,10 @@ BST's support basic **database** operations through recursive methods:
 
 **Traverse** - as with binary trees, BST's can be traversed **in-order** to visit entries in ascending order.
 
-Where a tree supports duplicate entries, class designer needs to determine if retrieve and remove operations should affect the first occurence of an entry or all occurences.
+Where a tree supports duplicate entries, class designer needs to determine if retrieve and remove operations should affect the first occurence of an entry or all occurrences.
 
-Searches begin at the root and the max number of comparisons for each operation is directly proportional to tree height - add, remove, and retrieve are O(h).
+Searches begin at the root and the max number of comparisons for each operation is directly proportional to tree height.
 
-Worst case for an unbalanced tree is O(n) and for a **height-balanced** tree is O(log n).
+Time complexity to search, add, & delete are **O(h) for an unbalanced tree** and for a **height-balanced** tree is **O(log n)**.
 
 Adding items to an empty tree in random order will result in a tree that is approximately balanced.
