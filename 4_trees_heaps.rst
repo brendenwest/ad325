@@ -46,7 +46,7 @@ Each node in a binary tree has at most two children, called the **left child** a
 **Types of binary trees**
  - **Full** - A binary tree is full if every node has 0 or 2 children.
  - **Complete** - A binary tree is complete  if all the levels are completely filled except possibly the last level, and the last level has all keys to the left as much as possible,
- - **Perfect** - A binary tree is a perfect of all the internal nodes have two children and all leaf nodes are at the same level. A perfect binary tree of height h has 2\ :sup:`h+1` – 1 nodes. 
+ - **Perfect** - A binary tree is perfect if all internal nodes have two children and all leaf nodes are at the same level. A perfect binary tree of height h has 2\ :sup:`h+1` – 1 nodes. 
  - **Balanced** - A binary tree is balanced if the height of the tree is O(Log n), where n is the number of nodes.
 
 Binary trees can be traversed (each node visited), usually through recursive methods that take one of these approaches:
