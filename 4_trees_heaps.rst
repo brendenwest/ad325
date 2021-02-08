@@ -41,7 +41,7 @@ Each node in a binary tree has at most two children, called the **left child** a
 **Properties of a binary tree**
  - The maximum number of nodes at level 'l' of a binary tree is 2\ :sup:`l`
  - The Maximum number of nodes in a binary tree of height ‘h’ is 2\ :sup:`h` – 1
- - In a binary Tree with N nodes, minimum height is - Log\ :sub:`2`(N+1) 
+ - In a binary Tree with N nodes, minimum height is - Log\ :sub:`2` (N+1) 
 
 **Types of binary trees**
  - **Full** - A binary tree is full if every node has 0 or 2 children.
