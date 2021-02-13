@@ -79,6 +79,14 @@ Each node has a boolean value indicating color (e.g. true = red, false = black)
 - The average length of a path from the root to a node in a red-black BST with N nodes is ~1.00 lg N.
 - In a red-black BST, the following operations take **logarithmic time** in the worst case: search, insertion, finding the minimum, finding the maximum, floor, ceiling, rank, select, delete the minimum, delete the maximum, delete, and range count.
 
+AVL trees are more balanced than Red-Black Trees, but may cause more rotations during insertion and deletion. So Red-Black trees are preferrable for applications with frequent insertions and deletions.
+
+Applications of red-black trees:
+- BST map & set functions (e.g. TreeMap & TreeSet) in Java)
+- MySQL table indexes
+- K-means clustering in data analysis
+
+
 m-Way Trees
 ____
 
