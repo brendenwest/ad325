@@ -22,12 +22,13 @@ Overview
 
 Hashing determines the array **index** of an entry based on its search key. Entries can then be accessed directly according to their index, rather than by traversing the array.
 
-Arrays constructed through hashing are called **hash tables**. In most cases, hash tables are **sparse*, with only a few positions used.
+Arrays constructed through hashing are called **hash tables**. In most cases, hash tables are **sparse**, with only a few positions used.
 
 While useful for searching, hashing cannot provide traversal of search keys in sorted order.
 
 Hash Functions
 ----
+
 A **hash function** produces an integer (**hash index**) based on search key to determine the entry's array index position. **Good** hash functions should:
     - minimize collisions
     - be fast to compute
@@ -35,6 +36,7 @@ A **hash function** produces an integer (**hash index**) based on search key to 
 **Perfect** hash functions should produce a unique index for each unique search key, but this is rarely achieved.
 
 Typical (index) hashing involves:
+
     1 - Converting the search key to an integer (**hash code**)
     2 - Compressing the hash code into the range of indices for the hash table
 
@@ -62,7 +64,9 @@ In case the hash function maps a search key to an index position already in use,
 - find another open position (**open addressing**)
 - change hash table structure to allow more than one value per index (**chaining**)
 
-**Open Addressing**
+Open Addressing
+++++
+
 Open addressing is the process of finding an unused position in the hash table through **probing**.
 
 A **Linear Probing** algorithm looks at each consecutive table element after the collision, for an unused position. Probing continues until an open position is found.
@@ -81,4 +85,5 @@ This method guarantees a successful **add** operation as long as the table is < 
 
 The second has function should differ from the first and return a non-zero value.
 
-**Separate Chaining**
+Separate Chaining
+++++
