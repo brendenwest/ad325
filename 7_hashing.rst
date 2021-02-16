@@ -87,3 +87,9 @@ The second has function should differ from the first and return a non-zero value
 
 Separate Chaining
 ++++
+
+Separate chaining treats each element in the hash table as a **bucket** that can hold more than one entry. This method avoids problems of clustering and endless searches.
+
+When searching for a key, the algorithm searches key-value pairs in the bucket that matches the key.
+
+Buckets can be represented with many different data structures - e.g. list, sorted list, array, linked nodes. Linked nodes are optimal since that approach does not require a fixed memory allocation.
