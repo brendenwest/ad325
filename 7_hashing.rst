@@ -93,3 +93,13 @@ Separate chaining treats each element in the hash table as a **bucket** that can
 When searching for a key, the algorithm searches key-value pairs in the bucket that matches the key.
 
 Buckets can be represented with many different data structures - e.g. list, sorted list, array, linked nodes. Linked nodes are optimal since that approach does not require a fixed memory allocation.
+
+Efficiency
+____
+
+Resolving a collision takes more time than the hashing function & tends to be the prime contributor to the cost of hashing.
+
+**load factor** measures the cost of collision resolution. It is the ratio of number of entries in the table to the size of the table. Restricting the size of load factor improves  hashing performance. With separate chaining, load factor is independent of how many buckets are empty. 
+
+For linear probing, the number of comparisons increases as the table fills, and increases rapidly when the table is > 0.5 full.
+
