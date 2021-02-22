@@ -33,7 +33,7 @@ Unlike other data structures, graphs are not modified after being created. Inste
 All trees are connected graphs with hierarchical order and without cycles.
 
 Edges
-+++
+++++
 
 An edge may be **undirected** if there is a two-way relationship between the vertices it connects, or **directed** if the relationship is one-way (e.g. one-way streets).
 
@@ -42,7 +42,7 @@ A graph with directed edges is called a directed graph or **digraph**.
 Edges may have an associated **weight** or **cost** (e.g. road distance, driving time, etc.).
 
 Paths
-+++
+++++
 
 A **path** between two vertices in a graph is a sequence of edges, where path length is the number of edges.
 
