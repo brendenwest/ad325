@@ -5,6 +5,7 @@ Graphs
     - overview of graphs
     - undirected graphs
     - directed graphs
+    - graph traversal
 
 **Reading & Videos**
     - Carrano & Henry: Chapter 29, 30
