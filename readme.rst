@@ -1,11 +1,11 @@
 **Class Details**
 
 * Location: Remote
-* Time: Tues or Thurs 6:00 - 8:40 pm
-* Dates:  01/05/2021 - 03/23/2021
+* Time: Tues 6:00 - 8:40 pm
+* Dates:  01/04/2022 - 03/23/2022
 * Credits: 5
 * Prerequisites: AD 300 or similar with 2.5 or better
-* Instructor: Brenden West | brenden.west@seattlecolleges.edu | 206-552-9795
+* Instructor: Brenden West | brenden.west@seattlecolleges.edu
 
 **Summary** 
 This class covers fundamental data structures, algorithms, and problem-solving techniques at the core of computer science. Students will learn how to estimate theoretical performance of a programmatic solution and choose optimal solutions for common programming problems.
@@ -36,15 +36,14 @@ This course will cover the following topics, although the precise list & order i
 * Binary search trees
 * Hash Tables
 * Graphs and path finding
-* String algorithms & regular expressions
-* Compression algorithms
  
 **Course Materials**
 This class will use `Data Structures and Abstractions with Java (5th Edition) <https://www.pearson.com/us/higher-education/program/Carrano-Data-Structures-and-Abstractions-with-Java-5th-Edition/PGM1912010.html>`_ and https://algs4.cs.princeton.edu/home/. as well as programming exercises from these free online resources:
 
 * https://www.coursera.org/learn/algorithms-part1 
 * https://www.coursera.org/learn/algorithms-part2
-* https://practiceit.cs.washington.edu/ 
+* https://practiceit.cs.washington.edu/
+* https://www.codestepbystep.com/
 * https://leetcode.com/ 
 
 Students will need a computer with an IntelliJ-based Java programming environment as described for `Windows <https://lift.cs.princeton.edu/java/windows/>`_ or `Mac OSX <https://lift.cs.princeton.edu/java/mac/>`_.
@@ -54,7 +53,7 @@ Grades will be based on assignments (85%) and quizzes (15%). There is no final e
 
 Weekly assignments will be posted on Canvas and are designed to exercise the skills and concepts covered that week. Smaller coding assignments are due by the Monday before class and late submissions may be subject to a 10% penalty.
 
-Larger programming assignments have a suggested due date but can be submitted by finals week. Students should target the due date to avoid a time crunch at quarter's end. Grade for these assignments is a weighted value based on your Coursera.org score (80% passing score = full credit).
+Coursera programming assignments have a **suggested** due date but can be submitted prior to finals week. Students should target the due date to avoid a time crunch at quarter's end. Grade for Coursera assignments is a weighted value based on your Coursera.org score (80% passing score = full credit).
 
 You may discuss how to approach solutions with other students in the class or in online forums, but your submission must be your own work. Code submissions that are substantially identical would be considered cheating and subject to a markdown penalty. 
 
