@@ -10,7 +10,7 @@ Intro to Data Structures & Algorithms
 
 **Reading**
   - https://www.coursera.org/learn/algorithms-part1/home/week/1  
-  - Carron & Henry, Chapters 1 - 4
+  - Carrano & Henry, Chapters 1 - 4
   - https://algs4.cs.princeton.edu/10fundamentals/ - Ch. 1.1 - 1.4 (review)
   - https://www.geeksforgeeks.org/recursion/ (review)
   - https://www.geeksforgeeks.org/data-structures/linked-list/ (review)

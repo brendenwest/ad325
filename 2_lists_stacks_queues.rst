@@ -10,7 +10,7 @@ Key Topics
 Reading
 -------
 - https://www.coursera.org/learn/algorithms-part1/home/week/2  
-- Carron & Henry: Chapters 5 - 8, Interlude 4 Iterators
+- Carrano & Henry: Chapters 5 - 8, Interlude 4 Iterators
 - https://algs4.cs.princeton.edu/13stacks/  (review)
 - https://www.geeksforgeeks.org/stack-data-structure/ (review)
 - https://www.geeksforgeeks.org/queue-data-structure/ (review)
