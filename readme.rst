@@ -2,7 +2,7 @@
 
 * Location: Remote
 * Time: Tues 6:00 - 8:40 pm
-* Dates:  01/04/2022 - 03/23/2022
+* Dates:  01/03/2023 - 03/22/2023
 * Credits: 5
 * Prerequisites: AD 300 or similar with 2.5 or better
 * Instructor: Brenden West | brenden.west@seattlecolleges.edu
